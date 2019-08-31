@@ -1,0 +1,8 @@
+markup language - represents semi structured data
+
+python -m jupyter notebook 
+// dont use jupyter which is set in path, use jupyter which is specified for this python
+
+python3 -m pip install jupyter	// -m stands for ‘module’
+
+Find python in : /usr/local/lib/

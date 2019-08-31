@@ -1,0 +1,14 @@
+harcasket face unlock algorithm
+corpus = dataset
+unsupervised model - no label prior to training in corpus to compare result with (you create y)
+Deep Learning : If you replace model with deep neural network
+
+Reinforment learning : based on environment, like training mario to play by itself
+environment has a state that changes based on your actions
+
+Booz allen hamilton
+
+kmeans problem
+elbow drop
+
+https://www.youtube.com/results?search_query=3+blue+one+brown+linear+algebra
