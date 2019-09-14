@@ -1,0 +1,1 @@
+use haar cascate frontal face xml for facial detection
