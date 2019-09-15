@@ -26,6 +26,7 @@ while True:
             crop = cv2.resize(crop, (100, 100))
             cv2.imshow("Crop", crop)
 
+        cv2.imshow("Window", frame)
         key = cv2.waitKey(1)
 
         if ord('q') == 0xff & key:
@@ -58,4 +59,3 @@ print(result.shape)
 
 cap.release()
 cv2.destroyAllWindows()
-

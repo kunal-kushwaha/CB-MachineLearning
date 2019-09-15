@@ -20,7 +20,7 @@ while True:
 
         faces = classifier.detectMultiScale(gray)
         # print(faces)    # each face will have [x,y,width,height]
-        # x means when you got face when looking from left to right, width means how long did face go on x axis
+        # x means when you got face when looking from left to right, w means how long did face go on x axis
 
         if len(faces) > 0:
 
