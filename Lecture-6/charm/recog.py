@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 
 cap = cv2.VideoCapture(0)
