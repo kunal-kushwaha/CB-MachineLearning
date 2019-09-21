@@ -1,0 +1,12 @@
+Linear Regression :
+
+Algorithm : Gradient Descnet , only one local minima and that should be global minima
+
+e^2 = sigma (mx + c - y) ^ 2
+
+keeping c fixed,
+m = m - delta(m) * lr // lr is learing rate, kitna jump marna hai
+// delta(m) = slope
+
+
+Look Up : Boston House Pricing
