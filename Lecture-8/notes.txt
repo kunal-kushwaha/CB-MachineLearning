@@ -10,3 +10,15 @@ m = m - delta(m) * lr // lr is learing rate, kitna jump marna hai
 
 
 Look Up : Boston House Pricing
+
+Logistic Regression :
+product of all probabilities is called likelyhood, not a good thing cuz graph will not be convex, cuz we need convex to get max probability
+So we will take log likelyhood, take log of likelyhood, because it will be sumissions instead of products
+
+g = x1m1 + x2m2 + c   # m1 and m2 will be given by logistic regression and we need to find x2 by using x1
+-infinite to infinite will be value
+we need this probability between 0 and 1
+so we will do
+y = 1 / ( 1 + e^(-g) )  # this is sigmoid function  # this y is probability
+
+differentiate about m and c to get 2 equations
